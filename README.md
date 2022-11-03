@@ -34,3 +34,9 @@ Esta key nueva se agregará al archivo .env
 ## Nota API
 
 Consumo de la API https://apilayer.com/ la cual nos permite un maximo de 100 peticiones en la cuenta gratuita
+
+## Recursos del Proyecto
+
+Laravel Versión 8 
+Livewire 
+Plantilla Boostrap
