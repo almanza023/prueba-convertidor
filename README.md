@@ -7,13 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Indicaciones de intslación
+## Indicaciones de instalación
 Requisitos:
 Php Version 7.4 o superior
 Composer
 1. Clonar el repositorio del proyecto o Descargar en Formato ZIP
 2. Instalar dependencias del proyecto
-    Ingresa desde la terminal a la carpeta de tu proyecto y escribe:
+    Ingresa desde la terminal a la carpeta de tu proyecto y escribe: <br>
      <b>composer install </b>
 Este comando instalará todas las librerías que están declaradas el proyecto.
 3. Generar archivo .env
@@ -21,12 +21,12 @@ Por seguridad el archivo .env está excluido del repositorio, para generar uno n
 cp .env.example .env
 4. Generar Key
 Para que tu proyecto en Laravel corra sin problemas es necesario generar una key de seguirdad, para ello en tu terminal corre el siguiente comando:
- ** php artisan key:generate **
+    <b>php artisan key:generate </b>
 Esta key nueva se agregará al archivo .env
 5. Crear base de datos MYSQL
 6. Correr migraciones y seeds
-    ** php artisan migrate –seed **
-7. Ejecutar el comando  **php artisan serve ** para inicar el proyecto.
+    <b>php artisan migrate –seed </b>
+7. Ejecutar el comando  <b>php artisan serve </b> para inicar el proyecto.
 7. Usuario: prueba@mail.com Clave: 12345
 
 
