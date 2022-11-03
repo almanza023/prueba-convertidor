@@ -14,7 +14,7 @@ Composer
 1. Clonar el repositorio del proyecto o Descargar en Formato ZIP
 2. Instalar dependencias del proyecto
     Ingresa desde la terminal a la carpeta de tu proyecto y escribe:
-     ** composer install **
+     <b>composer install </b>
 Este comando instalará todas las librerías que están declaradas el proyecto.
 3. Generar archivo .env
 Por seguridad el archivo .env está excluido del repositorio, para generar uno nuevo se toma como plantilla el archivo .env.example para copiar este archivo en una nuevo escribe en tu terminal:
