@@ -25,7 +25,8 @@ Para que tu proyecto en Laravel corra sin problemas es necesario generar una key
 Esta key nueva se agregará al archivo .env
 5. Crear base de datos MYSQL
 6. Correr migraciones y seeds
-    <b>php artisan migrate --seed </b>
+    <b>php artisan migrate </b><br>
+    <b>php artisan db:seed --class=UserSeeder</b>
 7. Ejecutar el comando  <b>php artisan serve </b> para inicar el proyecto.
 7. Usuario: prueba@mail.com Clave: 12345
 
